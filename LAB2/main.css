@@ -1,0 +1,21 @@
+body {background-color: whitesmoke; }  
+h1 {font-family:cursive;
+    color: rgb(81, 81, 223);  
+    text-align: center; 
+    padding: 30pt; }
+h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center; 
+    border: 5px solid rgb(18, 18, 19);
+    height: 30px;
+    width: 300px;
+    background-color: powderblue; 
+    box-shadow: 10px 10px 25px dimgrey }
+body    { font-size: 10pt; color: black; font-family:Arial, Helvetica, sans-serif;
+          text-align: justify; }
+.cancelbtn  { margin-left: 10pt;
+              background-color: rgb(231, 135, 135); }
+.submitbtn  { margin-left: 50pt;
+              background-color: rgb(129, 236, 129); }
+.bluebtn    { margin-left: 10pt;
+              background-color:rgb(156, 191, 236)}

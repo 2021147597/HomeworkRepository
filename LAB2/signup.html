@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Internet Programming Shop</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+
+<body>
+
+<h1>Welcome to Internet Programming Shop</h1>
+<h2>Sign up now!</h2>
+<p>Already have an account? <a href = "https://2021147597.github.io/HomeworkRepository/LAB2/login.html/">Log in</a></p>
+
+<form method = "GET" action = "https://www.example.com">
+	<p><label>First Name:
+    	<input type = "text" name = "firstName" placeholder = "First name" autofocus/></label> (First name) </p>
+    <p><label>Last Name:
+    	<input type = "text" name = "lastName" placeholder = "Last name" required/></label> (Last name) </p>
+    <p><label>Email:
+    	<input type = "email" name = "email" placeholder = "name@domain.com" required/></label> (name@domain.com) </p>
+    <p><label>Date of Birth:
+    	<input type = "date" name = "date" /></label> (dd/mm/yyyy) </p>
+    <p><label>Tel:
+    	<input type = "tel" name = "tel" placeholder = "(###)####-####" pattern = "\(\d{3}\)\d{4}-\d{4}"  /></label> (###)####-#### </p>
+    <p><label>Year:
+    	<input type = "number" name = "year" min = "1" max = "4" step = "1" value = "1" /></label></p>
+    <p><label>Yonsei ID:
+    	<input type = "text" name = "id" placeholder = "Yonsei ID" required/></label></p>
+    <p><label for = "pwd">Password:
+  		<input type = "password" id = "pwd" name = "pwd" minlength = "8" required></label></p>
+    <p>
+        <input class = "submitbtn" type = "submit" value = "Sign Up">
+        <input class = "cancelbtn" type = "reset" value = "Cancel">   
+    </p>      	
+</form>
+
+</body>
+</html>
