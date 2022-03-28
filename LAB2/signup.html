@@ -14,21 +14,23 @@
 
 <form method = "GET" action = "https://www.example.com">
 	<p><label>First Name:
-    	<input type = "text" name = "firstName" placeholder = "First name" autofocus/></label> (First name) </p>
+    	<input type = "text" name = "firstName" placeholder = "First name" autofocus/></label></p>
     <p><label>Last Name:
-    	<input type = "text" name = "lastName" placeholder = "Last name" required/></label> (Last name) </p>
+    	<input type = "text" name = "lastName" placeholder = "Last name" required/></label> (required) </p>
     <p><label>Email:
-    	<input type = "email" name = "email" placeholder = "name@domain.com" required/></label> (name@domain.com) </p>
+    	<input type = "email" name = "email" placeholder = "name@domain.com" required/></label> (required) </p>
     <p><label>Date of Birth:
-    	<input type = "date" name = "date" /></label> (dd/mm/yyyy) </p>
+    	<input type = "date" name = "date" /></label></p>
     <p><label>Tel:
     	<input type = "tel" name = "tel" placeholder = "(###)####-####" pattern = "\(\d{3}\)\d{4}-\d{4}"  /></label> (###)####-#### </p>
     <p><label>Year:
     	<input type = "number" name = "year" min = "1" max = "4" step = "1" value = "1" /></label> (1:Freshman, 2:Sophomore, 3:Junior, 4:Senior)</p>
     <p><label>Yonsei ID:
-    	<input type = "text" name = "id" placeholder = "Yonsei ID" required/></label></p>
+    	<input type = "text" name = "id" placeholder = "Enter Student ID" required/></label> (required) </p>
     <p><label for = "pwd">Password:
-  		<input type = "password" id = "pwd" name = "pwd" minlength = "8" required></label></p>
+  		<input type = "password" id = "pwd" name = "pwd" minlength = "8" placeholder = "min. 8 characters" required></label> (required) </p>
+    <p><label for = "pwd">Confirm Password:
+        <input type = "password" id = "pwd" name = "pwd" minlength = "8" placeholder = "Re-enter password" required></label> (required) </p>
     <p>
         <input class = "submitbtn" type = "submit" value = "Sign Up">
         <input class = "cancelbtn" type = "reset" value = "Cancel">   
