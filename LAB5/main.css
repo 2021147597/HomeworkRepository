@@ -123,8 +123,6 @@ p {
 
 .main {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
