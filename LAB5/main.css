@@ -51,8 +51,7 @@ li a:hover  { background-color:rgb(143, 199, 248);
 .select     { text-decoration: underline overline; }
 
 img   { border: 1px solid gray;
-    width: 50%;
-    transition: transform 2s; }
+    width: 50%;}
 
 p     { text-align: center; 
     padding: 5px; }
