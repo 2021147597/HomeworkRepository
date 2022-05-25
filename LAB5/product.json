@@ -1,0 +1,107 @@
+[
+    {
+        "type": "desktop",
+        "name": "DELL Desktop Compouter",
+        "img": "desktop1.jpg",
+        "brand": "DELL",
+        "spec": "22' LCD Monitor, Intel Core 2 Duo, 8G DDR3, 120G SSD"
+    },
+    {
+        "type": "desktop",
+        "name": "DELL OPTIPLEX Desktop",
+        "img": "desktop2.jpg",
+        "brand": "DELL",
+        "spec": "20' LCD Monitor, Intel Core 2 Duo, 8G RAM, 500G HDD"
+    },
+    {
+        "type": "desktop",
+        "name": "HP Elite Desktop",
+        "img": "desktop3.jpg",
+        "brand": "HP",
+        "spec": "19' LCD Monitor, Intel Core i5, 8G RAM, 1T HDD"
+    },
+    {
+        "type": "desktop",
+        "name": "Apple iMac Desktop",
+        "img": "desktop4.jpg",
+        "brand": "Apple",
+        "spec": "21.5' LCD Monitor, 2.7GHz Core i5, 8G Memory, 1T HDD"
+    },
+    {
+        "type": "monitor",
+        "name": "Acer LED Backlit Computer Monitor",
+        "img": "monitor1.jpg",
+        "brand": "Acer",
+        "spec": "IPS Full HD, Zero Frame Design, HDMI Port"
+    },
+    {
+        "type": "monitor",
+        "name": "HP V223ve FHD Monitor",
+        "img": "monitor2.jpg",
+        "brand": "HP",
+        "spec": "1080p VA Display, 75Hz Refresh Rate, Low Blue Light Mode"
+    },
+    {
+        "type": "monitor",
+        "name": "Samsung T55 Series Curved Monitor",
+        "img": "monitor3.jpg",
+        "brand": "Samsung",
+        "spec": "27i LED 1000R RHD FreeSync, DisplayPort, HDMI, VGA"
+    },
+    {
+        "type": "keyboard",
+        "name": "V7 Standard USD Keyboard",
+        "img": "keyboard1.jpg",
+        "brand": "V7",
+        "spec": "Full-Size Space Saving Spill Resistant"
+    },
+    {
+        "type": "keyboard",
+        "name": "Microsoft Bluetooth Keyboard",
+        "img": "keyboard2.jpg",
+        "brand": "Microsoft",
+        "spec": "21Y-00001 Compact (60%), Matte Black"
+    },
+    {
+        "type": "keyboard",
+        "name": "Redragon K552 Mechanical Gaming Keyboard",
+        "img": "keyboard3.jpg",
+        "brand": "Redragon",
+        "spec": "RGB LED Rainbow Backlit Wired with Red Switches"
+    },
+    {
+        "type": "keyboard",
+        "name": "Logitech K360 Wireless Keyboard",
+        "img": "keyboard4.jpg",
+        "brand": "Logitech",
+        "spec": "Radia Keyboard German, Windows Black"
+    },
+    {
+        "type": "speaker",
+        "name": "Audioengine A1 Home Music System",
+        "img": "speaker1.jpg",
+        "brand": "Audioengine",
+        "spec": "With Bluetooth "
+    },
+    {
+        "type": "speaker",
+        "name": "Live Tech SP12 2.0 Multimedia Speaker",
+        "img": "speaker2.jpg",
+        "brand": "Live Tech",
+        "spec": "With Aux Connectivity, USB Powered"
+    },
+    {
+        "type": "speaker",
+        "name": "JVC Portable Bluetooth Speaker",
+        "img": "speaker3.jpg",
+        "brand": "JVC",
+        "spec": "Bluetooth Audio, USB or AUX Playback"
+    },
+    {
+        "type": "speaker",
+        "name": "Apple HomePod Mini Speaker",
+        "img": "speaker4.jpg",
+        "brand": "Apple",
+        "spec": "Smart Bluetooth Speaker"
+    }
+]
