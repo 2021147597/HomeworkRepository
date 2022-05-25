@@ -198,7 +198,7 @@ function load() {
             main.appendChild(section);
             section.appendChild(container);
             container.appendChild(info);
-            container.appendChile(brand);
+            container.appendChild(brand);
             container.appendChild(spec);
             section.appendChild(img);
             section.appendChild(prompt);
