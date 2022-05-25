@@ -103,6 +103,7 @@ function initialize(products) {
         const container = document.createElement('div');
         const prompt = document.createElement('p');
         const info = document.createElement('p');
+        const brand = document.createElement('p');
         const spec = document.createElement('p');
 
         section.setAttribute('class', 'onClickTextOverImage');
@@ -125,7 +126,8 @@ function initialize(products) {
 
         info.setAttribute('id', 'product_name');
         info.textContent = product.name;
-        spec.textContent = 'Specification: \n' + product.spec + '\nBrand: ' + product.brand;
+        brand.textContent = 'Brand: ' + product.brand;
+        spec.textContent = 'Specification: ' + product.spec;
             
         img.src = objURL;
         img.alt = product.name;
@@ -133,7 +135,8 @@ function initialize(products) {
         main.appendChild(section);
         section.appendChild(container);
         container.appendChild(info);
-        container.appendChild(spec)
+        container.appendChild(brand);
+        container.appendChild(spec);
         section.appendChild(img);
         section.appendChild(prompt);
     }
@@ -161,6 +164,7 @@ function load() {
             const container = document.createElement('div');
             const prompt = document.createElement('p');
             const info = document.createElement('p');
+            const brand = document.createElement('p');
             const spec = document.createElement('p');
 
             let url = './image/' + products[start].img;
@@ -183,8 +187,9 @@ function load() {
 
             prompt.textContent = "Click to see more";
 
-            info.textContent = products[start].name;
-            spec.textContent = '$' + products[start].spec;
+            info.textContent = product.name;
+            brand.textContent = 'Brand: ' + product.brand;
+            spec.textContent = 'Specification: ' + product.spec;
             
             img.src = url;
             img.alt = products[start].name;
@@ -192,6 +197,7 @@ function load() {
             main.appendChild(section);
             section.appendChild(container);
             container.appendChild(info);
+            container.appendChild(brand);
             container.appendChild(spec);
             section.appendChild(img);
             section.appendChild(prompt);
