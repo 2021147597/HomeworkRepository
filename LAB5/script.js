@@ -1,7 +1,6 @@
-const myRequest = new Request('product.json')
-let counter = 4;
+let counter = 1;
 
-fetch(myRequest)
+fetch('product.json')
     .then( response => {
         if (!response.ok) {
             throw new Error(`HTTP error: ${response.status}`);
@@ -53,7 +52,6 @@ function initialize(products) {
                         categoryGroup.push(products[i]);
                     }
                 }
-
                 selectProducts();
             }
         }
@@ -69,10 +67,8 @@ function initialize(products) {
             for(let i = 0; i < categoryGroup.length; i++) {
                 if(categoryGroup[i].name.toLowerCase().includes(lowerCaseSearchTerm)) {
                     finalGroup.push(categoryGroup[i]);
-                    console.log(finalGroup[i]);
                 }
             }
-    
             updateDisplay();
         }
     }
@@ -145,7 +141,7 @@ function initialize(products) {
 
 window.addEventListener('scroll', () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-    if(clientHeight + scrollTop >= scrollHeight - 3) {
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight) {
         load();
     }
 });
@@ -154,8 +150,8 @@ function load() {
     const main = document.querySelector('main');
 
     var start = counter;
-    var end = start + 3;
-    counter = end;
+    var end = start + 1;
+    counter = end + 1;
 
     fetch(myRequest).then(response => response.json()).then(function(json) {
         let products = json;
