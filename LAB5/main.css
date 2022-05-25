@@ -117,15 +117,11 @@ p {
                 max-width: 24%; }
 }
 
-#search::after {
-  content: '🔍';
-}
-
 .main {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 1020px;
 }
 
 .searchBar {
@@ -142,7 +138,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  width: 1000px;
+  width: 1020px;
 }
 
 section {
@@ -171,7 +167,7 @@ section img {
 }
 
 div.container {
-  width: 1000px;
+  width: 1020px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -188,8 +184,8 @@ div.img {
 }
 
 div.header {
-  width: 1000px;
-  max-width: 1000px;
+  width: 1020px;
+  max-width: 1020px;
   margin: auto;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
