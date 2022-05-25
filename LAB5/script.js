@@ -125,7 +125,7 @@ function initialize(products) {
 
         info.setAttribute('id', 'product_name');
         info.textContent = product.name;
-        spec.textContent = 'Specification:' + product.spec;
+        spec.textContent = 'Specification: <br>' + product.spec;
             
         img.src = objURL;
         img.alt = product.name;

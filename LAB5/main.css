@@ -19,7 +19,7 @@ h2 {
   width: 300px;
   background-color: powderblue; 
   box-shadow: 10px 10px 25px dimgrey; 
-  margin: auto; 
+  text-align: center;
 }
 
 .cancelbtn { 
@@ -83,7 +83,6 @@ img {
 }
 
 p { 
-  text-align: center; 
   padding: 5px; 
 }
 
