@@ -137,7 +137,8 @@ function initialize(products) {
     }
 }
 
-let counter = 1;
+
+let counter = 4;
 
 window.addEventListener('scroll', () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
@@ -152,7 +153,7 @@ function load() {
     const main = document.querySelector('main');
 
     var start = counter;
-    var end = start + 1;
+    var end = start + 3;
     counter = end + 1;
 
     fetch(myRequest).then(response => response.json()).then(function(json) {
