@@ -1,3 +1,5 @@
+let counter = 4;
+
 fetch('product.json')
     .then( response => {
         if (!response.ok) {
@@ -41,6 +43,7 @@ function initialize(products) {
             lastSearch = searchTerm.value.trim();
 
             if(category.value === 'All') {
+                counter = 4;
                 categoryGroup = products;
                 selectProducts();
             } else {
@@ -138,8 +141,6 @@ function initialize(products) {
 }
 
 
-let counter = 4;
-
 window.addEventListener('scroll', () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
     if(window.innerHeight + window.scrollY >= document.body.offsetHeight) {
@@ -156,7 +157,7 @@ function load() {
     var end = start + 3;
     counter = end + 1;
 
-    fetch(myRequest).then(response => response.json()).then(function(json) {
+    fetch('product.json').then(response => response.json()).then(function(json) {
         let products = json;
         for(start; start < end; start++) {
             const section = document.createElement('section');
