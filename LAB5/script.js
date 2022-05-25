@@ -187,17 +187,18 @@ function load() {
 
             prompt.textContent = "Click to see more";
 
-            info.textContent = product.name;
-            brand.textContent = 'Brand: ' + product.brand;
-            spec.textContent = 'Specification: ' + product.spec;
-            
+            info.setAttribute('id', 'product_name');
+            info.textContent = products[start].name;
+            brand.textContent = 'Brand: ' + products[start].brand;
+            spec.textContent = 'Specification: ' + products[start].spec;
+
             img.src = url;
             img.alt = products[start].name;
     
             main.appendChild(section);
             section.appendChild(container);
             container.appendChild(info);
-            container.appendChild(brand);
+            container.appendChile(brand);
             container.appendChild(spec);
             section.appendChild(img);
             section.appendChild(prompt);
