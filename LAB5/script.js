@@ -69,6 +69,7 @@ function initialize(products) {
             for(let i = 0; i < categoryGroup.length; i++) {
                 if(categoryGroup[i].name.toLowerCase().includes(lowerCaseSearchTerm)) {
                     finalGroup.push(categoryGroup[i]);
+                    console.log(finalGroup[i]);
                 }
             }
     
