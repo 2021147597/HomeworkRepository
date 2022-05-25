@@ -123,6 +123,7 @@ function initialize(products) {
 
         prompt.textContent = "Click to see more";
 
+        info.setAttribute('id', 'product_name');
         info.textContent = product.name;
         spec.textContent = 'Specification:' + product.spec;
             
