@@ -93,7 +93,7 @@ function initialize(products) {
     }
     
     function fetchImg(product, i) {
-        let url = './images/' + product.img;
+        let url = './image/' + product.img;
         showProduct(url, product, i);
     }
     
@@ -124,7 +124,7 @@ function initialize(products) {
         prompt.textContent = "Click to see more";
 
         info.textContent = product.name;
-        spec.textContent = '$' + product.spec;
+        spec.textContent = 'Specification:' + product.spec;
             
         img.src = objURL;
         img.alt = product.name;
@@ -162,7 +162,7 @@ function load() {
             const info = document.createElement('p');
             const spec = document.createElement('p');
 
-            let url = './images/' + products[start].img;
+            let url = './image/' + products[start].img;
     
             section.setAttribute('class', 'onClickTextOverImage');
 
