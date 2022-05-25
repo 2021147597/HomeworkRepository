@@ -128,3 +128,27 @@ section img {
   color: aliceblue;
   font-size: x-large;
 }
+div.container {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.img {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+  padding: 5px;
+  border: 5px solid black;
+  overflow: hidden;
+}
+
+div.header {
+  width: 1020px;
+  max-width: 1020px;
+  margin: auto;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
