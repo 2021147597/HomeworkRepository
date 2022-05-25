@@ -84,7 +84,11 @@ function initialize(products) {
             para.textContent = 'No results to display!';
             main.appendChild(para);
         } else {
-            for(let i = 0; i < 4; i++) {
+            if (finalGroup.length <= 4)
+                length = 4;
+            else
+                length = finalGroup.length;
+            for(let i = 0; i < length; i++) {
                 fetchImg(finalGroup[i], i);
             }
         }
@@ -143,7 +147,7 @@ function initialize(products) {
 
 window.addEventListener('scroll', () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-    if(window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight && category.value === 'All' && searchTerm.value.trim() === '') {
         load();
     }
 });

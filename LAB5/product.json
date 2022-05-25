@@ -92,13 +92,6 @@
     },
     {
         "type": "speaker",
-        "name": "JVC Portable Bluetooth Speaker",
-        "img": "speaker3.jpg",
-        "brand": "JVC",
-        "spec": "Bluetooth Audio, USB or AUX Playback"
-    },
-    {
-        "type": "speaker",
         "name": "Apple HomePod Mini Speaker",
         "img": "speaker4.jpg",
         "brand": "Apple",
