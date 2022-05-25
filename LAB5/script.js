@@ -1,5 +1,3 @@
-let counter = 1;
-
 fetch('product.json')
     .then( response => {
         if (!response.ok) {
@@ -139,12 +137,16 @@ function initialize(products) {
     }
 }
 
+let counter = 1;
+
 window.addEventListener('scroll', () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
     if(window.innerHeight + window.scrollY >= document.body.offsetHeight) {
         load();
     }
 });
+
+
 
 function load() {
     const main = document.querySelector('main');
