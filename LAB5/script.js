@@ -84,7 +84,7 @@ function initialize(products) {
             para.textContent = 'No results to display!';
             main.appendChild(para);
         } else {
-            if (finalGroup.length <= 4)
+            if (finalGroup.length > 4)
                 length = 4;
             else
                 length = finalGroup.length;
@@ -147,7 +147,7 @@ function initialize(products) {
 
 window.addEventListener('scroll', () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-    if(window.innerHeight + window.scrollY >= document.body.offsetHeight && category.value === 'All' && searchTerm.value.trim() === '') {
+    if(window.innerHeight + window.scrollY >= document.body.offsetHeight && category.value === 'All' && document.getElementById('search').value.trim() === "") {
         load();
     }
 });
