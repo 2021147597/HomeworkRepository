@@ -125,7 +125,7 @@ function initialize(products) {
 
         info.setAttribute('id', 'product_name');
         info.textContent = product.name;
-        spec.textContent = 'Specification: \r\n' + product.spec;
+        spec.textContent = 'Specification: \n' + product.spec + '\nBrand: ' + product.brand;
             
         img.src = objURL;
         img.alt = product.name;
@@ -167,7 +167,7 @@ function load() {
     
             section.setAttribute('class', 'onClickTextOverImage');
 
-            container.setAttribute('class', 'clickable');
+            container.setAttribute('class', 'click');
             container.id = start;
             container.style.opacity = "0";
             container.onclick = function(){
