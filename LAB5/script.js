@@ -107,7 +107,7 @@ function initialize(products) {
 
         section.setAttribute('class', 'onClickTextOverImage');
 
-        container.setAttribute('class', 'clickable');
+        container.setAttribute('class', 'click');
         container.id = i;
         container.style.opacity = "0";
         container.onclick = function(){
